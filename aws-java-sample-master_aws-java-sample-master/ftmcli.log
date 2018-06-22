@@ -1,0 +1,306 @@
+Wed Jan 03 14:49:06 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[uploadtest, C:\work\folder, ]
+Wed Jan 03 14:49:06 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Wed Jan 03 14:49:06 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:Invalid Command: uploadtest
+Wed Jan 03 14:49:06 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Usage: java -jar ftmcli.jar <command> [-A, --auth-url <auth url>] 
+                                      [-S, --service <service>] 
+                                      [-I, --identity-domain <identity domain>] 
+                                      [-U, --user <user>] 
+                                      [-d, --debug] 
+                                      [-i, --silent] 
+                                      [-v, --version] 
+                                      [-h, --help] 
+                                      [--properties-file <file path>] 
+                                      [--save-auth-key] 
+
+Commands: 
+upload      Upload a file or a directory to a container.
+download    Download an object or a virtual directory from a container.
+restore     Restore an object from an Archive container.
+list        List containers in the account or objects in a container.
+delete      Delete a container in the account or an object in a container.
+describe    Describes the attributes of a container in the account or an object in a container.
+set         Set the metadata attribute(s) of a container in the account or an object in a container.
+
+To get a list of the options and arguments for a specific command, run that command
+with the --help option
+
+Examples: 
+java -jar ftmcli.jar upload --help 
+
+java -jar ftmcli.jar download --auth-url https://storage.us.oraclecloud.com --service Storage \ 
+--identity-domain acme --user john.doe@oracle.com mycontainer data.txt 
+
+java -jar ftmcli.jar upload mycontainer log.txt 
+
+java -jar ftmcli.jar list -A https://storage.us.oraclecloud.com -S Storage -I acme \ 
+-U john.doe@oracle.com mycontainer
+
+For more examples, see the reference documentation at
+http://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-oracle-storage-cloud-file-transfer-manager-cli.html
+Wed Jan 03 14:51:17 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[uploadtest, C:\work\folder\, ]
+Wed Jan 03 14:51:17 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Wed Jan 03 14:51:17 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:Invalid Command: uploadtest
+Wed Jan 03 14:51:17 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Usage: java -jar ftmcli.jar <command> [-A, --auth-url <auth url>] 
+                                      [-S, --service <service>] 
+                                      [-I, --identity-domain <identity domain>] 
+                                      [-U, --user <user>] 
+                                      [-d, --debug] 
+                                      [-i, --silent] 
+                                      [-v, --version] 
+                                      [-h, --help] 
+                                      [--properties-file <file path>] 
+                                      [--save-auth-key] 
+
+Commands: 
+upload      Upload a file or a directory to a container.
+download    Download an object or a virtual directory from a container.
+restore     Restore an object from an Archive container.
+list        List containers in the account or objects in a container.
+delete      Delete a container in the account or an object in a container.
+describe    Describes the attributes of a container in the account or an object in a container.
+set         Set the metadata attribute(s) of a container in the account or an object in a container.
+
+To get a list of the options and arguments for a specific command, run that command
+with the --help option
+
+Examples: 
+java -jar ftmcli.jar upload --help 
+
+java -jar ftmcli.jar download --auth-url https://storage.us.oraclecloud.com --service Storage \ 
+--identity-domain acme --user john.doe@oracle.com mycontainer data.txt 
+
+java -jar ftmcli.jar upload mycontainer log.txt 
+
+java -jar ftmcli.jar list -A https://storage.us.oraclecloud.com -S Storage -I acme \ 
+-U john.doe@oracle.com mycontainer
+
+For more examples, see the reference documentation at
+http://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-oracle-storage-cloud-file-transfer-manager-cli.html
+Wed Jan 03 15:42:06 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[uploadtest, C:\work\folder\, ]
+Wed Jan 03 15:42:06 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Wed Jan 03 15:42:06 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:Invalid Command: uploadtest
+Wed Jan 03 15:42:06 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Usage: java -jar ftmcli.jar <command> [-A, --auth-url <auth url>] 
+                                      [-S, --service <service>] 
+                                      [-I, --identity-domain <identity domain>] 
+                                      [-U, --user <user>] 
+                                      [-d, --debug] 
+                                      [-i, --silent] 
+                                      [-v, --version] 
+                                      [-h, --help] 
+                                      [--properties-file <file path>] 
+                                      [--save-auth-key] 
+
+Commands: 
+upload      Upload a file or a directory to a container.
+download    Download an object or a virtual directory from a container.
+restore     Restore an object from an Archive container.
+list        List containers in the account or objects in a container.
+delete      Delete a container in the account or an object in a container.
+describe    Describes the attributes of a container in the account or an object in a container.
+set         Set the metadata attribute(s) of a container in the account or an object in a container.
+
+To get a list of the options and arguments for a specific command, run that command
+with the --help option
+
+Examples: 
+java -jar ftmcli.jar upload --help 
+
+java -jar ftmcli.jar download --auth-url https://storage.us.oraclecloud.com --service Storage \ 
+--identity-domain acme --user john.doe@oracle.com mycontainer data.txt 
+
+java -jar ftmcli.jar upload mycontainer log.txt 
+
+java -jar ftmcli.jar list -A https://storage.us.oraclecloud.com -S Storage -I acme \ 
+-U john.doe@oracle.com mycontainer
+
+For more examples, see the reference documentation at
+http://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-oracle-storage-cloud-file-transfer-manager-cli.html
+Wed Jan 03 16:14:00 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[uploadtest, C:\work\folder\--save-auth-key, ]
+Wed Jan 03 16:14:00 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Wed Jan 03 16:14:00 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:Invalid Command: uploadtest
+Wed Jan 03 16:14:00 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Usage: java -jar ftmcli.jar <command> [-A, --auth-url <auth url>] 
+                                      [-S, --service <service>] 
+                                      [-I, --identity-domain <identity domain>] 
+                                      [-U, --user <user>] 
+                                      [-d, --debug] 
+                                      [-i, --silent] 
+                                      [-v, --version] 
+                                      [-h, --help] 
+                                      [--properties-file <file path>] 
+                                      [--save-auth-key] 
+
+Commands: 
+upload      Upload a file or a directory to a container.
+download    Download an object or a virtual directory from a container.
+restore     Restore an object from an Archive container.
+list        List containers in the account or objects in a container.
+delete      Delete a container in the account or an object in a container.
+describe    Describes the attributes of a container in the account or an object in a container.
+set         Set the metadata attribute(s) of a container in the account or an object in a container.
+
+To get a list of the options and arguments for a specific command, run that command
+with the --help option
+
+Examples: 
+java -jar ftmcli.jar upload --help 
+
+java -jar ftmcli.jar download --auth-url https://storage.us.oraclecloud.com --service Storage \ 
+--identity-domain acme --user john.doe@oracle.com mycontainer data.txt 
+
+java -jar ftmcli.jar upload mycontainer log.txt 
+
+java -jar ftmcli.jar list -A https://storage.us.oraclecloud.com -S Storage -I acme \ 
+-U john.doe@oracle.com mycontainer
+
+For more examples, see the reference documentation at
+http://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-oracle-storage-cloud-file-transfer-manager-cli.html
+Wed Jan 03 16:18:57 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[uploadtest, C:\work\folder\+--save-auth-key, ]
+Wed Jan 03 16:18:57 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Wed Jan 03 16:18:57 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:Invalid Command: uploadtest
+Wed Jan 03 16:18:57 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Usage: java -jar ftmcli.jar <command> [-A, --auth-url <auth url>] 
+                                      [-S, --service <service>] 
+                                      [-I, --identity-domain <identity domain>] 
+                                      [-U, --user <user>] 
+                                      [-d, --debug] 
+                                      [-i, --silent] 
+                                      [-v, --version] 
+                                      [-h, --help] 
+                                      [--properties-file <file path>] 
+                                      [--save-auth-key] 
+
+Commands: 
+upload      Upload a file or a directory to a container.
+download    Download an object or a virtual directory from a container.
+restore     Restore an object from an Archive container.
+list        List containers in the account or objects in a container.
+delete      Delete a container in the account or an object in a container.
+describe    Describes the attributes of a container in the account or an object in a container.
+set         Set the metadata attribute(s) of a container in the account or an object in a container.
+
+To get a list of the options and arguments for a specific command, run that command
+with the --help option
+
+Examples: 
+java -jar ftmcli.jar upload --help 
+
+java -jar ftmcli.jar download --auth-url https://storage.us.oraclecloud.com --service Storage \ 
+--identity-domain acme --user john.doe@oracle.com mycontainer data.txt 
+
+java -jar ftmcli.jar upload mycontainer log.txt 
+
+java -jar ftmcli.jar list -A https://storage.us.oraclecloud.com -S Storage -I acme \ 
+-U john.doe@oracle.com mycontainer
+
+For more examples, see the reference documentation at
+http://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-oracle-storage-cloud-file-transfer-manager-cli.html
+Sun Jan 07 17:30:18 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[uploadtest, c:\disk+--save-auth-key, ]
+Sun Jan 07 17:30:18 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Sun Jan 07 17:30:18 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:Invalid Command: uploadtest
+Sun Jan 07 17:30:18 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Usage: java -jar ftmcli.jar <command> [-A, --auth-url <auth url>] 
+                                      [-S, --service <service>] 
+                                      [-I, --identity-domain <identity domain>] 
+                                      [-U, --user <user>] 
+                                      [-d, --debug] 
+                                      [-i, --silent] 
+                                      [-v, --version] 
+                                      [-h, --help] 
+                                      [--properties-file <file path>] 
+                                      [--save-auth-key] 
+
+Commands: 
+upload      Upload a file or a directory to a container.
+download    Download an object or a virtual directory from a container.
+restore     Restore an object from an Archive container.
+list        List containers in the account or objects in a container.
+delete      Delete a container in the account or an object in a container.
+describe    Describes the attributes of a container in the account or an object in a container.
+set         Set the metadata attribute(s) of a container in the account or an object in a container.
+
+To get a list of the options and arguments for a specific command, run that command
+with the --help option
+
+Examples: 
+java -jar ftmcli.jar upload --help 
+
+java -jar ftmcli.jar download --auth-url https://storage.us.oraclecloud.com --service Storage \ 
+--identity-domain acme --user john.doe@oracle.com mycontainer data.txt 
+
+java -jar ftmcli.jar upload mycontainer log.txt 
+
+java -jar ftmcli.jar list -A https://storage.us.oraclecloud.com -S Storage -I acme \ 
+-U john.doe@oracle.com mycontainer
+
+For more examples, see the reference documentation at
+http://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-oracle-storage-cloud-file-transfer-manager-cli.html
+Sun Jan 07 17:36:58 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[uploadtest, C:\Users\yasaygil\Downloads\ftmcli-v2.3.3\ftmcli-v2.3.3\, ]
+Sun Jan 07 17:36:58 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Sun Jan 07 17:36:58 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:Invalid Command: uploadtest
+Sun Jan 07 17:36:58 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Usage: java -jar ftmcli.jar <command> [-A, --auth-url <auth url>] 
+                                      [-S, --service <service>] 
+                                      [-I, --identity-domain <identity domain>] 
+                                      [-U, --user <user>] 
+                                      [-d, --debug] 
+                                      [-i, --silent] 
+                                      [-v, --version] 
+                                      [-h, --help] 
+                                      [--properties-file <file path>] 
+                                      [--save-auth-key] 
+
+Commands: 
+upload      Upload a file or a directory to a container.
+download    Download an object or a virtual directory from a container.
+restore     Restore an object from an Archive container.
+list        List containers in the account or objects in a container.
+delete      Delete a container in the account or an object in a container.
+describe    Describes the attributes of a container in the account or an object in a container.
+set         Set the metadata attribute(s) of a container in the account or an object in a container.
+
+To get a list of the options and arguments for a specific command, run that command
+with the --help option
+
+Examples: 
+java -jar ftmcli.jar upload --help 
+
+java -jar ftmcli.jar download --auth-url https://storage.us.oraclecloud.com --service Storage \ 
+--identity-domain acme --user john.doe@oracle.com mycontainer data.txt 
+
+java -jar ftmcli.jar upload mycontainer log.txt 
+
+java -jar ftmcli.jar list -A https://storage.us.oraclecloud.com -S Storage -I acme \ 
+-U john.doe@oracle.com mycontainer
+
+For more examples, see the reference documentation at
+http://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/preparing-use-oracle-storage-cloud-file-transfer-manager-cli.html
+Mon Jan 08 12:24:37 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, c:\disk\disk\dok.pdf, ]
+Mon Jan 08 12:24:37 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Mon Jan 08 12:24:37 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:--auth-url not provided in config file or as a parameter.
+Mon Jan 08 12:28:04 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, c:\disk\disk\dok.pdf, ]
+Mon Jan 08 12:28:04 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Mon Jan 08 12:28:04 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:--auth-url not provided in config file or as a parameter.
+Mon Jan 08 12:31:04 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, c:\disk\disk\dok.pdf, ]
+Mon Jan 08 12:31:04 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Mon Jan 08 12:31:04 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:--auth-url not provided in config file or as a parameter.
+Mon Jan 08 13:23:19 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, c:\disk\disk\dok.pdf, ]
+Mon Jan 08 13:23:19 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Mon Jan 08 13:23:19 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:--auth-url not provided in config file or as a parameter.
+Thu Apr 05 00:01:30 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, C:\work\folder, ]
+Thu Apr 05 00:01:30 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Thu Apr 05 00:01:30 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:--auth-url not provided in config file or as a parameter.
+Thu Apr 05 14:42:18 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, C:\work\folder, ]
+Thu Apr 05 14:42:18 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Thu Apr 05 14:42:18 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:--auth-url not provided in config file or as a parameter.
+Thu Apr 05 16:29:35 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, C:\work\folder, ]
+Thu Apr 05 16:29:35 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Thu Apr 05 16:29:35 MSK 2018 oracle.cloudstorage.ftm.cli ERROR:--auth-url not provided in config file or as a parameter.
+Thu Apr 05 16:33:51 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Command Line Arguments:[upload, test, C:\work\folder, ]
+Thu Apr 05 16:33:51 MSK 2018 oracle.cloudstorage.ftm.cli FINE:CLI version: Version 2.3.3 System properties: Java version: 1.8.0_144, OS: Windows 7 6.1
+Thu Apr 05 16:33:51 MSK 2018 oracle.cloudstorage.ftm.cli FINE:auth url: https://boranyazilim.storage.oraclecloud.com, identity domain: boranyazilim, service: Storage, user: mehmetucar@me.com, container: test, segments container: test_segments, file Name: C:\work\folder, retries: 5, max threads: 15, segment size: 100
+Thu Apr 05 16:33:51 MSK 2018 oracle.cloudstorage.ftm.cli FINE:Auth Reuqest url: https://boranyazilim.storage.oraclecloud.com, service: Storage, identity domain: boranyazilim, user: mehmetucar@me.com, password: XXXXX 
+Thu Apr 05 16:33:54 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Uploading directory: C:\work\folder to container: test
+Thu Apr 05 16:33:55 MSK 2018 oracle.cloudstorage.ftm.cli INFO:File uploaded: Afis.jpg
+Thu Apr 05 16:33:55 MSK 2018 oracle.cloudstorage.ftm.cli INFO:File uploaded: backup.tar.gz
+Thu Apr 05 16:33:55 MSK 2018 oracle.cloudstorage.ftm.cli INFO:File(s) attempted: 2
+Thu Apr 05 16:33:55 MSK 2018 oracle.cloudstorage.ftm.cli INFO:File(s) succeeded: 2
+Thu Apr 05 16:33:55 MSK 2018 oracle.cloudstorage.ftm.cli INFO:File(s) skipped: 0. See Log for details.
+Thu Apr 05 16:33:55 MSK 2018 oracle.cloudstorage.ftm.cli INFO:File(s) failed: 0. See Log for details.
+Thu Apr 05 16:33:55 MSK 2018 oracle.cloudstorage.ftm.cli INFO:Estimated Transfer Rate: 47KB/s
